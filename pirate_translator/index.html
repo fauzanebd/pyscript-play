@@ -11,6 +11,9 @@
     <!-- PyScript CSS -->
     <link rel="stylesheet" href="https://pyscript.net/releases/2024.3.2/core.css">
 
+    <!-- my own CSS -->
+    <link rel="stylesheet" href="./index.css">
+
     <!-- This script tag bootstraps PyScript -->
     <script type="module" src="https://pyscript.net/releases/2024.3.2/core.js"></script>
 </head>
@@ -20,7 +23,7 @@
     <p>Translate english into piratish</p>
     <input type="text" name="english" id="english" placeholder="Type english here.." />
     <button py-click="translate_english">Translate</button>
-    <div id="output"></div>
-    <script type="py" src="./main.py" config="./pyscript.json" terminal></script>
+    <div id="keluaran"></div>
+    <script type="py" src="./main.py" config="./pyscript.json"></script>
 </body>
 </html>
