@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Recommended meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <title>🦜 Polyglot - Piratical PyScript</title>
+
+    <!-- PyScript CSS -->
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.3.2/core.css">
+
+    <!-- This script tag bootstraps PyScript -->
+    <script type="module" src="https://pyscript.net/releases/2024.3.2/core.js"></script>
+</head>
+<body>
+
+    <h1>Polyglot 🦜 💬 🇬🇧 ➡️ 🏴‍☠️</h1>
+    <p>Translate english into piratish</p>
+    <input type="text" name="english" id="english" placeholder="Type english here.." />
+    <button py-click="translate_english">Translate</button>
+    <div id="output"></div>
+    <script type="py" src="./main.py" config="./pyscript.json" terminal></script>
+</body>
+</html>
